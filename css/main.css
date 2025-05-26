@@ -279,7 +279,7 @@ navbar
 }
 
 .nav-header {
-    height: 6rem;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -290,7 +290,9 @@ navbar
     align-items: center;
 }
 
+
 .nav-header img {
+    height: 200px;
     width: 200px;
 }
 
@@ -340,7 +342,7 @@ navbar
     }
 
     .navbar {
-        height: 6rem;
+        height: 200px;
     }
 
     .nav-center {
@@ -362,6 +364,9 @@ navbar
     }
 
     .nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 0;
         border-top: none;
         margin-right: 1rem;
