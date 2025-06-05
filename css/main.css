@@ -279,7 +279,7 @@ navbar
 }
 
 .nav-header {
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -292,8 +292,8 @@ navbar
 
 
 .nav-header img {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 
 .nav-btn {
@@ -328,6 +328,7 @@ navbar
     transition: var(--textColor);
 }
 
+
 .nav-link:hover {
     color: var(--primary-500);
 }
@@ -353,6 +354,11 @@ navbar
     .nav-header {
         height: auto;
         margin-right: 2rem;
+    }
+
+    .nav-header img {
+        height: 200px;
+        width: 200px;
     }
 
     .nav-links {
